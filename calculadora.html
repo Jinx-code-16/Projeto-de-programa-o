@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calduladora</title>
+    <script src="js/calculadora.js"></script>
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="Home">
+                <h1>Home</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="index.html">Saiba mais</a></button>
+            </div>
+        </nav>
+    </header>
+    <div class="calc">
+        <label for="tipo">Digite o primeiro número!</label>
+       <input type="number" name="number" id="number">
+    <br>
+    <br>
+        <label for="type">Digite o segundo número!</label>
+        <input type="number" name="number2" id="number2">
+        <br>
+        <br>
+        <button onclick="calcular()">Clique aqui para ver os resultados!</button>
+
+        <h3>Adição: <h3 id="adicao"></h3></h3>
+        <h3>Subtração: <h3 id="subtracao"></h3></h3>
+        <h3>Multiplicação: <h3 id="multiplicacao"></h3></h3>
+        <h3>Divisão: <h3 id="divisao"></h3></h3>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhação</title>
+    <script src="js/jg.js"></script>
+    <link rel="stylesheet" href="css/jg.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="Home">
+                <h1>Home</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="portifolio.html" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="index.html">Saiba mais</a></button>
+            </div>
+        </nav>
+    </header>
+<div class="adivinhe">
+    <label>Este é o jogo da adivinhação, escolha um número entre 1 e 100!</label>
+    <input type="number" id="aposta" name="aposta">
+    <button onclick="verifyNumber()">Faça sua aposta!</button>
+    <h3><span id="apostaFeita"></span>
+    </h3>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+   
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="Home">
+                <h1>Home</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="index.html">Saiba mais</a></button>
+            </div>
+        </nav>
+    </header>
+    <form id="form">
+    <div class="central">
+        <div>
+        <span class="span-required">Digite seu nome: </span><br>
+        <input type="text" name="nome" id="nome" class="input required" oninput="nameValidate()"><br>
+        <span class="span-none">O nome deverá ter no minimo três caracteres!</span>
+        <br>
+    </div>
+        <br>
+        <div>
+        <span class="span-required">Digite seu email: </span><br>
+        <input type="email" name="email" id="email" class="input required" oninput="emailValidate()"><br>
+        <span class="span-none">O email digitado é invalido!</span>
+        <br>
+    </div>
+        <br>
+        <div>
+        <span class="span-required">Digite seu número de Whatsapp: </span><br>
+        <input type="tel" name="telefone" id="telefone" class="input required" oninput="phoneValidate()"><br>
+        <span class="span-none">Número de Whatsapp invalido!</span>
+        <br>
+    </div>
+    <div>
+        <br>
+        <span class="span-required" >Mande uma mensagem para mim!</span><br>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <div>
+    <button type="submit">Clique para enviar</button> 
+    <button class="insta"><a href="https://www.instagram.com/ceci___lia456?igsh=MWYyZjUxYmN2NDR5cA==">Meu instagram💜</a></button>
+</div>  
+    </div>
+    <footer>
+        <h3>Desenvolvido por Lia © 2024</h3>
+    </footer>
+
+</form>
+ <script src="js/contato.js"></script>
+</body>
+</html>
